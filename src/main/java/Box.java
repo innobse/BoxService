@@ -5,7 +5,6 @@ import java.io.*;
  *
  * @author bse71
  * Created on 01.12.2021
- * @since
  */
 public class Box implements Externalizable {
 
@@ -30,6 +29,10 @@ public class Box implements Externalizable {
     }
 
     public Box() {    }
+
+    public void doNothing() {
+
+    }
 
     public String getTitle() {
         return title;
