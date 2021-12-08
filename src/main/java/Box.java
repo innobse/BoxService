@@ -34,10 +34,6 @@ public class Box implements Externalizable {
 
     }
 
-    public void newFunction() {
-
-    }
-
     public String getTitle() {
         return title;
     }
